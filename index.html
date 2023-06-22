@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <!-- Preview of the website - Meta tag -->
+    <meta
+      name="Powered by Technology"
+      content="Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful"
+    />
+    <meta property="og:image" content="./images/four-card-preview.svg" />
+    <meta
+      property="og:title"
+      content="Frontend Mentor | Four card feature section"
+    />
+    <meta
+      property="og:description"
+      content="Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful"
+    />
+
     <link
       rel="icon"
       type="image/png"
@@ -12,22 +27,27 @@
       href="./images/favicon-32x32.png"
     />
 
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">    
-    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="styles/styles.css" />
 
     <title>Frontend Mentor | Four card feature section</title>
-
   </head>
+
   <body>
     <main>
       <section class="text-heading">
-        <h1>Reliable, efficient delivery <br><span>Powered by Technology</span></h1>
- 
+        <h1>
+          Reliable, efficient delivery <br /><span>Powered by Technology</span>
+        </h1>
+
         <p>
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
@@ -36,41 +56,67 @@
       <section class="cards-container">
         <div class="green-card" id="supervisor-card">
           <div class="card">
-            <h2 class="card-title">Supervisor</h2>
-            <p class="card-description">
-              Monitors activity to identify project roadblocks
-            </p>
-            <img class="card-icon" src="images/icon-supervisor.svg" alt="Card Image" />
+            <div class="card-text">
+              <h2 class="card-title">Supervisor</h2>
+              <p class="card-description">
+                Monitors activity to identify project roadblocks
+              </p>
+            </div>
+            <img
+              class="card-icon"
+              src="images/icon-supervisor.svg"
+              alt="Magnifying glass icon"
+            />
           </div>
         </div>
 
         <div class="red-card">
           <div class="card" id="team-builder-card">
-            <h2 class="card-title">Team Builder</h2>
-            <p class="card-description">
-              Scans our talent network to create the optimal team for your project
-            </p>
-            <img class="card-icon" src="images/icon-team-builder.svg" alt="Card Image" />
+            <div class="card-text">
+              <h2 class="card-title">Team Builder</h2>
+              <p class="card-description">
+                Scans our talent network to create the optimal team for your
+                project
+              </p>
+            </div>
+            <img
+              class="card-icon"
+              src="images/icon-team-builder.svg"
+              alt="House icon"
+            />
           </div>
         </div>
 
         <div class="orange-card">
           <div class="card" id="karma-card">
-            <h2 class="card-title">Karma</h2>
-            <p class="card-description">
-              Regularly evaluates our talent to ensure quality
-            </p>
-            <img class="card-icon" src="images/icon-karma.svg" alt="Card Image" />
+            <div class="card-text">
+              <h2 class="card-title">Karma</h2>
+              <p class="card-description">
+                Regularly evaluates our talent to ensure quality
+              </p>
+            </div>
+            <img
+              class="card-icon"
+              src="images/icon-karma.svg"
+              alt="Lightbulb icon"
+            />
           </div>
         </div>
 
         <div class="blue-card">
           <div class="card" id="calculator-card">
-            <h2 class="card-title">Calculator</h2>
-            <p class="card-description">
-              Uses data from past projects to provide better delivery estimates
-            </p>
-            <img class="card-icon" src="images/icon-calculator.svg" alt="Card Image" />
+            <div class="card-text">
+              <h2 class="card-title">Calculator</h2>
+              <p class="card-description">
+                Uses data from past projects to provide better delivery
+                estimates
+              </p>
+            </div>
+            <img
+              class="card-icon"
+              src="images/icon-calculator.svg"
+              alt="Monitor icon"
+            />
           </div>
         </div>
       </section>
