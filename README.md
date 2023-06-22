@@ -25,15 +25,17 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size. It has one breakpoint using media queries, so it's tablet/mobile view and then desktop and above view. 
 
 ### Screenshot
-
+**Desktop Screenshot**
 ![](./images/screenshot-desktop.JPG)
+
+**Mobile Screenshot**
 ![](./images/screenshot-mobile.JPG)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/four-card-section-responsive-using-grid-mobile-first-approach-AWmkNXayrv)
-- Live Site URL: [Add live site URL here](https://marciabel.github.io/four-card-feature-section-fem/)
+- Solution URL: [Solution URL at Frontent Mentor](https://www.frontendmentor.io/solutions/four-card-section-responsive-using-grid-mobile-first-approach-AWmkNXayrv)
+- Live Site URL: [Live Site preview](https://marciabel.github.io/four-card-feature-section-fem/)
 
 ## My process
 
